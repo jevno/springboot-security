@@ -6,6 +6,8 @@
 	<packaging>pom</packaging>
 	
 	<properties>
+		<marmsob.security.version>1.0.0-SNAPSHOT</marmsob.security.version>
+	
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -13,7 +15,7 @@
 	<modules>
 		<module>springboot-security-core</module>
 		<module>springboot-security-app</module>
-		<module>springboot-security-web</module>
+		<module>springboot-security-browser</module>
 		<module>springboot-security-demo</module>
 	</modules>
 	

@@ -5,30 +5,13 @@
 		<artifactId>springboot-security</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>springboot-security-demo</artifactId>
-
+	<artifactId>springboot-security-browser</artifactId>
+	
 	<dependencies>
 		<dependency>
 			<groupId>com.marsmob.security</groupId>
-			<artifactId>springboot-security-browser</artifactId>
+			<artifactId>springboot-security-core</artifactId>
 			<version>${marmsob.security.version}</version>
 		</dependency>
 	</dependencies>
-	
-	
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
 </project>
