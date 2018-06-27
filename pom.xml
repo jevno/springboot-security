@@ -12,8 +12,31 @@
 	
 	<modules>
 		<module>springboot-security-core</module>
+		<module>springboot-security-app</module>
+		<module>springboot-security-web</module>
+		<module>springboot-security-demo</module>
 	</modules>
 	
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>io.spring.platform</groupId>
+				<artifactId>platform-bom</artifactId>
+				<version>Cairo-SR2</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>Finchley.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+		
+	</dependencyManagement>
 	<build>
 		<plugins>
 			<plugin>
