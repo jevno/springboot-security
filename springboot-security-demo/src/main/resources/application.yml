@@ -1,2 +1,12 @@
 server:
   port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.0.75.1:32773/springboot-security?useUnicode=yes&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: Marsmob2018!
+
+    
+#security默认用户名user
