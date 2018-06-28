@@ -8,5 +8,7 @@ spring:
     username: root
     password: Marsmob2018!
 
-    
+  session:
+    store-type: none #spring session 存储方式
+
 #security默认用户名user
